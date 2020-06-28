@@ -63,6 +63,9 @@
 		
 		<!-- org.apache.maven.plugins -->
 		
+		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-antrun-plugin -->
+		<maven-antrun-plugin.version>3.0.0</maven-antrun-plugin.version>		
+		
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-clean-plugin -->
 		<maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
 		
@@ -90,6 +93,12 @@
 		<pluginManagement>
 			<plugins>
 			
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-antrun-plugin</artifactId>
+					<version>${maven-antrun-plugin.version}</version>
+				</plugin>
+
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-clean-plugin</artifactId>
